@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Consultar CEP Correios</title>
+</head>
+<body>
+    
+    <section class="container">
+        <h1 class="title">Pesquise um CEP</h1>
+        <form class="form" action="">
+            <input class="input" type="text" placeholder="00000-000" maxlength="8" onkeyup="value=value.replace(/[^\d]/g,'')"/>
+            <button class="submit" type="submit">Pesquisar</button>
+        </form>
+    </section>
+
+    <div class="resultado">
+        <div class="res-container">
+            <p class="subtitle">CEP: </p>
+            <p class="res cep"></p>
+        </div>
+
+        <div class="res-container">
+            <p class="subtitle">Estado: </p>
+            <p class="res estado"></p>
+        </div>
+
+        <div class="res-container">
+            <p class="subtitle">Cidade: </p>
+            <p class="res cidade"></p>
+        </div>
+
+        <div class="res-container">
+            <p class="subtitle">Bairro: </p>
+            <p class="res bairro"></p>
+        </div>
+
+        <div class="res-container">
+            <p class="subtitle">Endereço: </p>
+            <p class="res endereco"></p>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
