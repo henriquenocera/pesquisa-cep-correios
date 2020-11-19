@@ -35,5 +35,4 @@
 <br />
 <br />
 
-##### Projeto desenvolvido para fins educativos sob a Licença WTFPL
-
+##### Projeto desenvolvido para fins educativos sob a [Licença WTFPL](https://github.com/henriquenocera/pesquisa-cep-correios/blob/main/LICENSE)
